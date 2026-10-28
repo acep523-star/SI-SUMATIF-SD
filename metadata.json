@@ -1,0 +1,6 @@
+{
+  "name": "SI-SUMATIF SD — Sistem Generator Naskah Asesmen Sumatif",
+  "description": "Sistem Generator Naskah Asesmen Sumatif Sekolah Dasar berbasis kurikulum terkini, integrasi file PROTA (Elemen, CP, TP, ATP), AI Gemini, dan ekspor Microsoft Word.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,1577 @@
+{
+  "users": [
+    {
+      "id": "admin-system-root",
+      "nipNik": "198001012005011001",
+      "fullName": "Administrator Sistem SI-SUMATIF SD",
+      "schoolName": "Dinas Pendidikan & Kebudayaan",
+      "role": "admin",
+      "isActive": true,
+      "createdAt": "2026-10-28T13:46:00.910Z",
+      "passwordHash": "$2b$10$.wMdVYDncE7P2/7ypixD7evSC0ECsdETjV9oRc1yAXpSpFjVwamgy",
+      "lastLoginAt": "2026-10-28T14:03:41.732Z"
+    },
+    {
+      "id": "usr-1793195189105",
+      "nipNik": "198805122014021003",
+      "fullName": "Ahmad Syafi’i, S.Pd.SD",
+      "schoolName": "SD Negeri Nusantara 01",
+      "role": "guru",
+      "isActive": true,
+      "createdAt": "2026-10-28T13:46:29.105Z",
+      "passwordHash": "$2b$10$8fvpFr0uqND.Pu3io2b6JOOySFS0RBfWIc2eZzdkBvUlH33b.PolK",
+      "lastLoginAt": "2026-10-28T13:50:19.886Z"
+    },
+    {
+      "id": "admin-system-root",
+      "nipNik": "admin",
+      "fullName": "Administrator Sistem SI-SUMATIF SD",
+      "schoolName": "Dinas Pendidikan & Kebudayaan",
+      "role": "admin",
+      "isActive": true,
+      "createdAt": "2026-10-28T13:59:13.917Z",
+      "passwordHash": "$2b$10$cwTYMOmU.asevVXjlptcNOmEZJ8HhKvWmfjoTWvmJQxKzPbrE5yh2",
+      "lastLoginAt": "2026-10-28T14:03:41.732Z"
+    }
+  ],
+  "schoolIdentities": [
+    {
+      "id": "sch-1793195233543",
+      "userId": "usr-1793195189105",
+      "schoolName": "SD Negeri Nusantara 01",
+      "npsn": "20214567",
+      "address": "Jl. Pendidikan No. 45",
+      "village": "Cipagalo",
+      "district": "Bojongsoang",
+      "cityRegency": "Kabupaten Bandung",
+      "province": "Jawa Barat",
+      "principalName": "Dra. Hj. Nurjanah, M.M.Pd.",
+      "authorTeacherName": "Ahmad Syafi’i, S.Pd.SD",
+      "authorTeacherNipNik": "198805122014021003",
+      "academicYear": "2026/2027",
+      "isLocked": true,
+      "lockedAt": "2026-10-28T13:47:13.543Z",
+      "createdAt": "2026-10-28T13:47:13.543Z",
+      "updatedAt": "2026-10-28T13:47:13.543Z",
+      "unlockHistory": []
+    }
+  ],
+  "protaDocuments": [],
+  "assessmentPackages": [
+    {
+      "id": "pkg-1793195280503",
+      "userId": "usr-1793195189105",
+      "title": "Naskah ASAS_1 Matematika Kelas 1",
+      "config": {
+        "assessmentType": "ASAS_1",
+        "grade": 1,
+        "phase": "Fase A",
+        "semester": 1,
+        "subject": "Matematika",
+        "academicYear": "2026/2027",
+        "authorName": "Ahmad Syafi’i, S.Pd.SD",
+        "examDate": "2026-10-28",
+        "timeAllocationMinutes": 90,
+        "numMultipleChoice": 10,
+        "numShortAnswer": 3,
+        "numEssay": 2,
+        "lotsPercentage": 30,
+        "motsPercentage": 50,
+        "hotsPercentage": 20,
+        "multipleChoiceOptionsCount": 4,
+        "scoringFormula": "Nilai Akhir = (Total Skor Perolehan / Total Skor Maksimal) x 100",
+        "weightPG": 1,
+        "weightIsian": 2,
+        "weightEssay": 4
+      },
+      "schoolSnapshot": {
+        "id": "sch-1793195233543",
+        "userId": "usr-1793195189105",
+        "schoolName": "SD Negeri Nusantara 01",
+        "npsn": "20214567",
+        "address": "Jl. Pendidikan No. 45",
+        "village": "Cipagalo",
+        "district": "Bojongsoang",
+        "cityRegency": "Kabupaten Bandung",
+        "province": "Jawa Barat",
+        "principalName": "Dra. Hj. Nurjanah, M.M.Pd.",
+        "authorTeacherName": "Ahmad Syafi’i, S.Pd.SD",
+        "authorTeacherNipNik": "198805122014021003",
+        "academicYear": "2026/2027",
+        "isLocked": true,
+        "lockedAt": "2026-10-28T13:47:13.543Z",
+        "createdAt": "2026-10-28T13:47:13.543Z",
+        "updatedAt": "2026-10-28T13:47:13.543Z",
+        "unlockHistory": []
+      },
+      "selectedTpIds": [
+        "std-mat-1",
+        "std-mat-2",
+        "std-mat-3",
+        "std-mat-4"
+      ],
+      "items": [
+        {
+          "number": 1,
+          "type": "PG",
+          "stem": "Berdasarkan pembelajaran tentang \"Memahami nilai tempat bilangan cacah hingga 10.000 dan membandingkan dua bilangan cacah.\", manakah pernyataan berikut yang paling tepat?",
+          "stimulus": "Perhatikan pernyataan berikut dengan saksama mengenai materi Bilangan Cacah Besar dan Nilai Tempat.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Konsep utama terkait Bilangan Cacah Besar dan Nilai Tempat diterapkan secara tepat sesuai aturan dasar."
+            },
+            {
+              "key": "B",
+              "text": "Semua unsur diabaikan dan tidak memperhatikan karakteristik materi pokok."
+            },
+            {
+              "key": "C",
+              "text": "Hanya bagian awal yang diperhatikan tanpa memperhatikan alur penyelesaian."
+            },
+            {
+              "key": "D",
+              "text": "Pernyataan tidak memiliki keterkaitan dengan tujuan pembelajaran."
+            }
+          ],
+          "correctKey": "A",
+          "explanation": "Opsi A merupakan jawaban yang benar karena menyatakan pemahaman konsep dasar sesuai Capaian Pembelajaran pada materi Bilangan Cacah Besar dan Nilai Tempat.",
+          "element": "Bilangan",
+          "cp": "Peserta didik dapat memahami bilangan cacah besar sampai 10.000, operasi hitung penjumlahan dan pengurangan dengan nilai tempat yang sesuai.",
+          "tp": "Memahami nilai tempat bilangan cacah hingga 10.000 dan membandingkan dua bilangan cacah.",
+          "atp": "4.1 Membaca, menulis, dan menentukan nilai tempat bilangan cacah sampai 10.000.",
+          "indicator": "Peserta didik dapat mengidentifikasi konsep dasar mengenai Bilangan Cacah Besar dan Nilai Tempat dengan tepat.",
+          "material": "Bilangan Cacah Besar dan Nilai Tempat",
+          "cognitiveLevel": "LOTS",
+          "thinkingSkill": "C2 - Memahami",
+          "weight": 1,
+          "scoringRubric": {
+            "idealAnswer": "A",
+            "formulaDescription": "Skor 1 jika memilih A, skor 0 jika memilih opsi lain."
+          }
+        },
+        {
+          "number": 2,
+          "type": "PG",
+          "stem": "Berdasarkan pembelajaran tentang \"Menyelesaikan perkalian dan pembagian bilangan cacah sampai 100 dalam kehidupan sehari-hari.\", manakah pernyataan berikut yang paling tepat?",
+          "stimulus": "Perhatikan pernyataan berikut dengan saksama mengenai materi Operasi Perkalian dan Pembagian Kontekstual.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Konsep utama terkait Operasi Perkalian dan Pembagian Kontekstual diterapkan secara tepat sesuai aturan dasar."
+            },
+            {
+              "key": "B",
+              "text": "Semua unsur diabaikan dan tidak memperhatikan karakteristik materi pokok."
+            },
+            {
+              "key": "C",
+              "text": "Hanya bagian awal yang diperhatikan tanpa memperhatikan alur penyelesaian."
+            },
+            {
+              "key": "D",
+              "text": "Pernyataan tidak memiliki keterkaitan dengan tujuan pembelajaran."
+            }
+          ],
+          "correctKey": "A",
+          "explanation": "Opsi A merupakan jawaban yang benar karena menyatakan pemahaman konsep dasar sesuai Capaian Pembelajaran pada materi Operasi Perkalian dan Pembagian Kontekstual.",
+          "element": "Bilangan",
+          "cp": "Peserta didik dapat melakukan operasi perkalian dan pembagian bilangan cacah dengan strategi dekomposisi atau susun ke bawah.",
+          "tp": "Menyelesaikan perkalian dan pembagian bilangan cacah sampai 100 dalam kehidupan sehari-hari.",
+          "atp": "4.2 Menghitung hasil kali dan bagi bilangan cacah serta memecahkan masalah kontekstual.",
+          "indicator": "Peserta didik dapat mengidentifikasi konsep dasar mengenai Operasi Perkalian dan Pembagian Kontekstual dengan tepat.",
+          "material": "Operasi Perkalian dan Pembagian Kontekstual",
+          "cognitiveLevel": "LOTS",
+          "thinkingSkill": "C2 - Memahami",
+          "weight": 1,
+          "scoringRubric": {
+            "idealAnswer": "A",
+            "formulaDescription": "Skor 1 jika memilih A, skor 0 jika memilih opsi lain."
+          }
+        },
+        {
+          "number": 3,
+          "type": "PG",
+          "stem": "Berdasarkan pembelajaran tentang \"Mengidentifikasi ciri-ciri bangun datar berdasarkan sisi dan sudutnya.\", manakah pernyataan berikut yang paling tepat?",
+          "stimulus": "Perhatikan pernyataan berikut dengan saksama mengenai materi Sifat dan Keliling Bangun Datar.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Konsep utama terkait Sifat dan Keliling Bangun Datar diterapkan secara tepat sesuai aturan dasar."
+            },
+            {
+              "key": "B",
+              "text": "Semua unsur diabaikan dan tidak memperhatikan karakteristik materi pokok."
+            },
+            {
+              "key": "C",
+              "text": "Hanya bagian awal yang diperhatikan tanpa memperhatikan alur penyelesaian."
+            },
+            {
+              "key": "D",
+              "text": "Pernyataan tidak memiliki keterkaitan dengan tujuan pembelajaran."
+            }
+          ],
+          "correctKey": "A",
+          "explanation": "Opsi A merupakan jawaban yang benar karena menyatakan pemahaman konsep dasar sesuai Capaian Pembelajaran pada materi Sifat dan Keliling Bangun Datar.",
+          "element": "Geometri",
+          "cp": "Peserta didik dapat mendeskripsikan ciri-ciri berbagai bentuk bangun datar (segi empat, segitiga, segi banyak) dan menyusunnya.",
+          "tp": "Mengidentifikasi ciri-ciri bangun datar berdasarkan sisi dan sudutnya.",
+          "atp": "4.3 Mengklasifikasikan jenis-jenis bangun datar dan menghitung keliling bangun datar.",
+          "indicator": "Peserta didik dapat mengidentifikasi konsep dasar mengenai Sifat dan Keliling Bangun Datar dengan tepat.",
+          "material": "Sifat dan Keliling Bangun Datar",
+          "cognitiveLevel": "LOTS",
+          "thinkingSkill": "C2 - Memahami",
+          "weight": 1,
+          "scoringRubric": {
+            "idealAnswer": "A",
+            "formulaDescription": "Skor 1 jika memilih A, skor 0 jika memilih opsi lain."
+          }
+        },
+        {
+          "number": 4,
+          "type": "PG",
+          "stem": "Berdasarkan pembelajaran tentang \"Menggunakan satuan baku panjang (m, cm, mm) dan berat (kg, g) dalam penyelesaian masalah konkret.\", manakah pernyataan berikut yang paling tepat?",
+          "stimulus": "Perhatikan pernyataan berikut dengan saksama mengenai materi Pengukuran Satuan Baku Panjang dan Berat.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Konsep utama terkait Pengukuran Satuan Baku Panjang dan Berat diterapkan secara tepat sesuai aturan dasar."
+            },
+            {
+              "key": "B",
+              "text": "Semua unsur diabaikan dan tidak memperhatikan karakteristik materi pokok."
+            },
+            {
+              "key": "C",
+              "text": "Hanya bagian awal yang diperhatikan tanpa memperhatikan alur penyelesaian."
+            },
+            {
+              "key": "D",
+              "text": "Pernyataan tidak memiliki keterkaitan dengan tujuan pembelajaran."
+            }
+          ],
+          "correctKey": "A",
+          "explanation": "Opsi A merupakan jawaban yang benar karena menyatakan pemahaman konsep dasar sesuai Capaian Pembelajaran pada materi Pengukuran Satuan Baku Panjang dan Berat.",
+          "element": "Pengukuran",
+          "cp": "Peserta didik dapat mengukur panjang dan berat benda menggunakan satuan baku dan memperkirakan ukuran benda.",
+          "tp": "Menggunakan satuan baku panjang (m, cm, mm) dan berat (kg, g) dalam penyelesaian masalah konkret.",
+          "atp": "4.4 Memperkirakan dan mengukur panjang dan berat benda menggunakan alat ukur baku.",
+          "indicator": "Peserta didik dapat mengidentifikasi konsep dasar mengenai Pengukuran Satuan Baku Panjang dan Berat dengan tepat.",
+          "material": "Pengukuran Satuan Baku Panjang dan Berat",
+          "cognitiveLevel": "LOTS",
+          "thinkingSkill": "C2 - Memahami",
+          "weight": 1,
+          "scoringRubric": {
+            "idealAnswer": "A",
+            "formulaDescription": "Skor 1 jika memilih A, skor 0 jika memilih opsi lain."
+          }
+        },
+        {
+          "number": 5,
+          "type": "PG",
+          "stem": "Berdasarkan pembelajaran tentang \"Memahami nilai tempat bilangan cacah hingga 10.000 dan membandingkan dua bilangan cacah.\", manakah pernyataan berikut yang paling tepat?",
+          "stimulus": "Perhatikan pernyataan berikut dengan saksama mengenai materi Bilangan Cacah Besar dan Nilai Tempat.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Konsep utama terkait Bilangan Cacah Besar dan Nilai Tempat diterapkan secara tepat sesuai aturan dasar."
+            },
+            {
+              "key": "B",
+              "text": "Semua unsur diabaikan dan tidak memperhatikan karakteristik materi pokok."
+            },
+            {
+              "key": "C",
+              "text": "Hanya bagian awal yang diperhatikan tanpa memperhatikan alur penyelesaian."
+            },
+            {
+              "key": "D",
+              "text": "Pernyataan tidak memiliki keterkaitan dengan tujuan pembelajaran."
+            }
+          ],
+          "correctKey": "A",
+          "explanation": "Opsi A merupakan jawaban yang benar karena menyatakan pemahaman konsep dasar sesuai Capaian Pembelajaran pada materi Bilangan Cacah Besar dan Nilai Tempat.",
+          "element": "Bilangan",
+          "cp": "Peserta didik dapat memahami bilangan cacah besar sampai 10.000, operasi hitung penjumlahan dan pengurangan dengan nilai tempat yang sesuai.",
+          "tp": "Memahami nilai tempat bilangan cacah hingga 10.000 dan membandingkan dua bilangan cacah.",
+          "atp": "4.1 Membaca, menulis, dan menentukan nilai tempat bilangan cacah sampai 10.000.",
+          "indicator": "Peserta didik dapat mengidentifikasi konsep dasar mengenai Bilangan Cacah Besar dan Nilai Tempat dengan tepat.",
+          "material": "Bilangan Cacah Besar dan Nilai Tempat",
+          "cognitiveLevel": "LOTS",
+          "thinkingSkill": "C2 - Memahami",
+          "weight": 1,
+          "scoringRubric": {
+            "idealAnswer": "A",
+            "formulaDescription": "Skor 1 jika memilih A, skor 0 jika memilih opsi lain."
+          }
+        },
+        {
+          "number": 6,
+          "type": "PG",
+          "stem": "Pak Budi bersama peserta didik kelas 1 sedang melakukan kegiatan di sekolah. Jika mereka menerapkan konsep \"Menyelesaikan perkalian dan pembagian bilangan cacah sampai 100 dalam kehidupan sehari-hari.\", langkah yang harus dilakukan adalah ....",
+          "stimulus": "Di sebuah kelas, guru membimbing siswa menghubungkan materi Operasi Perkalian dan Pembagian Kontekstual dengan pemecahan masalah sehari-hari secara langsung.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Menerapkan rumus atau prosedur penyelesaian langkah demi langkah hingga mendapatkan solusi tepat."
+            },
+            {
+              "key": "B",
+              "text": "Memilih jalan pintas tanpa melakukan perhitungan atau pengamatan yang benar."
+            },
+            {
+              "key": "C",
+              "text": "Menghentikan proses ketika menemui kesulitan di tahap awal."
+            },
+            {
+              "key": "D",
+              "text": "Menyalin hasil pekerjaan kelompok lain tanpa memahami maknanya."
+            }
+          ],
+          "correctKey": "A",
+          "explanation": "Opsi A mencerminkan kemampuan C3 (Menerapkan) di mana murid mengaplikasikan prosedur yang tepat dalam menyelesaikan situasi kontekstual.",
+          "element": "Bilangan",
+          "cp": "Peserta didik dapat melakukan operasi perkalian dan pembagian bilangan cacah dengan strategi dekomposisi atau susun ke bawah.",
+          "tp": "Menyelesaikan perkalian dan pembagian bilangan cacah sampai 100 dalam kehidupan sehari-hari.",
+          "atp": "4.2 Menghitung hasil kali dan bagi bilangan cacah serta memecahkan masalah kontekstual.",
+          "indicator": "Disajikan narasi kontekstual, peserta didik dapat menerapkan prosedur terkait Operasi Perkalian dan Pembagian Kontekstual secara akurat.",
+          "material": "Operasi Perkalian dan Pembagian Kontekstual",
+          "cognitiveLevel": "MOTS",
+          "thinkingSkill": "C3 - Menerapkan",
+          "weight": 1,
+          "scoringRubric": {
+            "idealAnswer": "A",
+            "formulaDescription": "Skor 1 jika memilih A, skor 0 jika memilih opsi lain."
+          }
+        },
+        {
+          "number": 7,
+          "type": "PG",
+          "stem": "Pak Budi bersama peserta didik kelas 1 sedang melakukan kegiatan di sekolah. Jika mereka menerapkan konsep \"Mengidentifikasi ciri-ciri bangun datar berdasarkan sisi dan sudutnya.\", langkah yang harus dilakukan adalah ....",
+          "stimulus": "Di sebuah kelas, guru membimbing siswa menghubungkan materi Sifat dan Keliling Bangun Datar dengan pemecahan masalah sehari-hari secara langsung.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Menerapkan rumus atau prosedur penyelesaian langkah demi langkah hingga mendapatkan solusi tepat."
+            },
+            {
+              "key": "B",
+              "text": "Memilih jalan pintas tanpa melakukan perhitungan atau pengamatan yang benar."
+            },
+            {
+              "key": "C",
+              "text": "Menghentikan proses ketika menemui kesulitan di tahap awal."
+            },
+            {
+              "key": "D",
+              "text": "Menyalin hasil pekerjaan kelompok lain tanpa memahami maknanya."
+            }
+          ],
+          "correctKey": "A",
+          "explanation": "Opsi A mencerminkan kemampuan C3 (Menerapkan) di mana murid mengaplikasikan prosedur yang tepat dalam menyelesaikan situasi kontekstual.",
+          "element": "Geometri",
+          "cp": "Peserta didik dapat mendeskripsikan ciri-ciri berbagai bentuk bangun datar (segi empat, segitiga, segi banyak) dan menyusunnya.",
+          "tp": "Mengidentifikasi ciri-ciri bangun datar berdasarkan sisi dan sudutnya.",
+          "atp": "4.3 Mengklasifikasikan jenis-jenis bangun datar dan menghitung keliling bangun datar.",
+          "indicator": "Disajikan narasi kontekstual, peserta didik dapat menerapkan prosedur terkait Sifat dan Keliling Bangun Datar secara akurat.",
+          "material": "Sifat dan Keliling Bangun Datar",
+          "cognitiveLevel": "MOTS",
+          "thinkingSkill": "C3 - Menerapkan",
+          "weight": 1,
+          "scoringRubric": {
+            "idealAnswer": "A",
+            "formulaDescription": "Skor 1 jika memilih A, skor 0 jika memilih opsi lain."
+          }
+        },
+        {
+          "number": 8,
+          "type": "PG",
+          "stem": "Pak Budi bersama peserta didik kelas 1 sedang melakukan kegiatan di sekolah. Jika mereka menerapkan konsep \"Menggunakan satuan baku panjang (m, cm, mm) dan berat (kg, g) dalam penyelesaian masalah konkret.\", langkah yang harus dilakukan adalah ....",
+          "stimulus": "Di sebuah kelas, guru membimbing siswa menghubungkan materi Pengukuran Satuan Baku Panjang dan Berat dengan pemecahan masalah sehari-hari secara langsung.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Menerapkan rumus atau prosedur penyelesaian langkah demi langkah hingga mendapatkan solusi tepat."
+            },
+            {
+              "key": "B",
+              "text": "Memilih jalan pintas tanpa melakukan perhitungan atau pengamatan yang benar."
+            },
+            {
+              "key": "C",
+              "text": "Menghentikan proses ketika menemui kesulitan di tahap awal."
+            },
+            {
+              "key": "D",
+              "text": "Menyalin hasil pekerjaan kelompok lain tanpa memahami maknanya."
+            }
+          ],
+          "correctKey": "A",
+          "explanation": "Opsi A mencerminkan kemampuan C3 (Menerapkan) di mana murid mengaplikasikan prosedur yang tepat dalam menyelesaikan situasi kontekstual.",
+          "element": "Pengukuran",
+          "cp": "Peserta didik dapat mengukur panjang dan berat benda menggunakan satuan baku dan memperkirakan ukuran benda.",
+          "tp": "Menggunakan satuan baku panjang (m, cm, mm) dan berat (kg, g) dalam penyelesaian masalah konkret.",
+          "atp": "4.4 Memperkirakan dan mengukur panjang dan berat benda menggunakan alat ukur baku.",
+          "indicator": "Disajikan narasi kontekstual, peserta didik dapat menerapkan prosedur terkait Pengukuran Satuan Baku Panjang dan Berat secara akurat.",
+          "material": "Pengukuran Satuan Baku Panjang dan Berat",
+          "cognitiveLevel": "MOTS",
+          "thinkingSkill": "C3 - Menerapkan",
+          "weight": 1,
+          "scoringRubric": {
+            "idealAnswer": "A",
+            "formulaDescription": "Skor 1 jika memilih A, skor 0 jika memilih opsi lain."
+          }
+        },
+        {
+          "number": 9,
+          "type": "PG",
+          "stem": "Pak Budi bersama peserta didik kelas 1 sedang melakukan kegiatan di sekolah. Jika mereka menerapkan konsep \"Memahami nilai tempat bilangan cacah hingga 10.000 dan membandingkan dua bilangan cacah.\", langkah yang harus dilakukan adalah ....",
+          "stimulus": "Di sebuah kelas, guru membimbing siswa menghubungkan materi Bilangan Cacah Besar dan Nilai Tempat dengan pemecahan masalah sehari-hari secara langsung.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Menerapkan rumus atau prosedur penyelesaian langkah demi langkah hingga mendapatkan solusi tepat."
+            },
+            {
+              "key": "B",
+              "text": "Memilih jalan pintas tanpa melakukan perhitungan atau pengamatan yang benar."
+            },
+            {
+              "key": "C",
+              "text": "Menghentikan proses ketika menemui kesulitan di tahap awal."
+            },
+            {
+              "key": "D",
+              "text": "Menyalin hasil pekerjaan kelompok lain tanpa memahami maknanya."
+            }
+          ],
+          "correctKey": "A",
+          "explanation": "Opsi A mencerminkan kemampuan C3 (Menerapkan) di mana murid mengaplikasikan prosedur yang tepat dalam menyelesaikan situasi kontekstual.",
+          "element": "Bilangan",
+          "cp": "Peserta didik dapat memahami bilangan cacah besar sampai 10.000, operasi hitung penjumlahan dan pengurangan dengan nilai tempat yang sesuai.",
+          "tp": "Memahami nilai tempat bilangan cacah hingga 10.000 dan membandingkan dua bilangan cacah.",
+          "atp": "4.1 Membaca, menulis, dan menentukan nilai tempat bilangan cacah sampai 10.000.",
+          "indicator": "Disajikan narasi kontekstual, peserta didik dapat menerapkan prosedur terkait Bilangan Cacah Besar dan Nilai Tempat secara akurat.",
+          "material": "Bilangan Cacah Besar dan Nilai Tempat",
+          "cognitiveLevel": "MOTS",
+          "thinkingSkill": "C3 - Menerapkan",
+          "weight": 1,
+          "scoringRubric": {
+            "idealAnswer": "A",
+            "formulaDescription": "Skor 1 jika memilih A, skor 0 jika memilih opsi lain."
+          }
+        },
+        {
+          "number": 10,
+          "type": "PG",
+          "stem": "Pak Budi bersama peserta didik kelas 1 sedang melakukan kegiatan di sekolah. Jika mereka menerapkan konsep \"Menyelesaikan perkalian dan pembagian bilangan cacah sampai 100 dalam kehidupan sehari-hari.\", langkah yang harus dilakukan adalah ....",
+          "stimulus": "Di sebuah kelas, guru membimbing siswa menghubungkan materi Operasi Perkalian dan Pembagian Kontekstual dengan pemecahan masalah sehari-hari secara langsung.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Menerapkan rumus atau prosedur penyelesaian langkah demi langkah hingga mendapatkan solusi tepat."
+            },
+            {
+              "key": "B",
+              "text": "Memilih jalan pintas tanpa melakukan perhitungan atau pengamatan yang benar."
+            },
+            {
+              "key": "C",
+              "text": "Menghentikan proses ketika menemui kesulitan di tahap awal."
+            },
+            {
+              "key": "D",
+              "text": "Menyalin hasil pekerjaan kelompok lain tanpa memahami maknanya."
+            }
+          ],
+          "correctKey": "A",
+          "explanation": "Opsi A mencerminkan kemampuan C3 (Menerapkan) di mana murid mengaplikasikan prosedur yang tepat dalam menyelesaikan situasi kontekstual.",
+          "element": "Bilangan",
+          "cp": "Peserta didik dapat melakukan operasi perkalian dan pembagian bilangan cacah dengan strategi dekomposisi atau susun ke bawah.",
+          "tp": "Menyelesaikan perkalian dan pembagian bilangan cacah sampai 100 dalam kehidupan sehari-hari.",
+          "atp": "4.2 Menghitung hasil kali dan bagi bilangan cacah serta memecahkan masalah kontekstual.",
+          "indicator": "Disajikan narasi kontekstual, peserta didik dapat menerapkan prosedur terkait Operasi Perkalian dan Pembagian Kontekstual secara akurat.",
+          "material": "Operasi Perkalian dan Pembagian Kontekstual",
+          "cognitiveLevel": "MOTS",
+          "thinkingSkill": "C3 - Menerapkan",
+          "weight": 1,
+          "scoringRubric": {
+            "idealAnswer": "A",
+            "formulaDescription": "Skor 1 jika memilih A, skor 0 jika memilih opsi lain."
+          }
+        },
+        {
+          "number": 11,
+          "type": "ISIAN",
+          "stem": "Tuliskan istilah atau hasil akhir yang tepat saat menerapkan materi \"Memahami nilai tempat bilangan cacah hingga 10.000 dan membandingkan dua bilangan cacah.\" pada kegiatan belajar!",
+          "stimulus": "Lengkapilah kalimat berikut dengan jawaban singkat dan tepat berdasarkan pemahaman materi Bilangan Cacah Besar dan Nilai Tempat.",
+          "correctKey": "4.500 atau satuan baku yang sesuai",
+          "explanation": "Jawaban harus menyebutkan kata kunci esensial atau besaran angka yang tepat sesuai konteks pembelajaran.",
+          "element": "Bilangan",
+          "cp": "Peserta didik dapat memahami bilangan cacah besar sampai 10.000, operasi hitung penjumlahan dan pengurangan dengan nilai tempat yang sesuai.",
+          "tp": "Memahami nilai tempat bilangan cacah hingga 10.000 dan membandingkan dua bilangan cacah.",
+          "atp": "4.1 Membaca, menulis, dan menentukan nilai tempat bilangan cacah sampai 10.000.",
+          "indicator": "Peserta didik dapat menentukan jawaban isian singkat secara tepat mengenai Bilangan Cacah Besar dan Nilai Tempat.",
+          "material": "Bilangan Cacah Besar dan Nilai Tempat",
+          "cognitiveLevel": "MOTS",
+          "thinkingSkill": "C3 - Menerapkan",
+          "weight": 2,
+          "scoringRubric": {
+            "idealAnswer": "Hasil perhitungan tepat disertai satuan.",
+            "partialCriteria": [
+              "Skor 2: Menuliskan jawaban ideal secara tepat dan lengkap.",
+              "Skor 1: Menuliskan jawaban yang mendekati atau istilah sinonim tanpa satuan baku.",
+              "Skor 0: Jawaban keliru atau tidak diisi."
+            ],
+            "formulaDescription": "Skor perolehan antara 0 hingga 2."
+          }
+        },
+        {
+          "number": 12,
+          "type": "ISIAN",
+          "stem": "Tuliskan istilah atau hasil akhir yang tepat saat menerapkan materi \"Menyelesaikan perkalian dan pembagian bilangan cacah sampai 100 dalam kehidupan sehari-hari.\" pada kegiatan belajar!",
+          "stimulus": "Lengkapilah kalimat berikut dengan jawaban singkat dan tepat berdasarkan pemahaman materi Operasi Perkalian dan Pembagian Kontekstual.",
+          "correctKey": "4.500 atau satuan baku yang sesuai",
+          "explanation": "Jawaban harus menyebutkan kata kunci esensial atau besaran angka yang tepat sesuai konteks pembelajaran.",
+          "element": "Bilangan",
+          "cp": "Peserta didik dapat melakukan operasi perkalian dan pembagian bilangan cacah dengan strategi dekomposisi atau susun ke bawah.",
+          "tp": "Menyelesaikan perkalian dan pembagian bilangan cacah sampai 100 dalam kehidupan sehari-hari.",
+          "atp": "4.2 Menghitung hasil kali dan bagi bilangan cacah serta memecahkan masalah kontekstual.",
+          "indicator": "Peserta didik dapat menentukan jawaban isian singkat secara tepat mengenai Operasi Perkalian dan Pembagian Kontekstual.",
+          "material": "Operasi Perkalian dan Pembagian Kontekstual",
+          "cognitiveLevel": "MOTS",
+          "thinkingSkill": "C3 - Menerapkan",
+          "weight": 2,
+          "scoringRubric": {
+            "idealAnswer": "Hasil perhitungan tepat disertai satuan.",
+            "partialCriteria": [
+              "Skor 2: Menuliskan jawaban ideal secara tepat dan lengkap.",
+              "Skor 1: Menuliskan jawaban yang mendekati atau istilah sinonim tanpa satuan baku.",
+              "Skor 0: Jawaban keliru atau tidak diisi."
+            ],
+            "formulaDescription": "Skor perolehan antara 0 hingga 2."
+          }
+        },
+        {
+          "number": 13,
+          "type": "ISIAN",
+          "stem": "Tuliskan istilah atau hasil akhir yang tepat saat menerapkan materi \"Mengidentifikasi ciri-ciri bangun datar berdasarkan sisi dan sudutnya.\" pada kegiatan belajar!",
+          "stimulus": "Lengkapilah kalimat berikut dengan jawaban singkat dan tepat berdasarkan pemahaman materi Sifat dan Keliling Bangun Datar.",
+          "correctKey": "4.500 atau satuan baku yang sesuai",
+          "explanation": "Jawaban harus menyebutkan kata kunci esensial atau besaran angka yang tepat sesuai konteks pembelajaran.",
+          "element": "Geometri",
+          "cp": "Peserta didik dapat mendeskripsikan ciri-ciri berbagai bentuk bangun datar (segi empat, segitiga, segi banyak) dan menyusunnya.",
+          "tp": "Mengidentifikasi ciri-ciri bangun datar berdasarkan sisi dan sudutnya.",
+          "atp": "4.3 Mengklasifikasikan jenis-jenis bangun datar dan menghitung keliling bangun datar.",
+          "indicator": "Peserta didik dapat menentukan jawaban isian singkat secara tepat mengenai Sifat dan Keliling Bangun Datar.",
+          "material": "Sifat dan Keliling Bangun Datar",
+          "cognitiveLevel": "HOTS",
+          "thinkingSkill": "C3 - Menerapkan",
+          "weight": 2,
+          "scoringRubric": {
+            "idealAnswer": "Hasil perhitungan tepat disertai satuan.",
+            "partialCriteria": [
+              "Skor 2: Menuliskan jawaban ideal secara tepat dan lengkap.",
+              "Skor 1: Menuliskan jawaban yang mendekati atau istilah sinonim tanpa satuan baku.",
+              "Skor 0: Jawaban keliru atau tidak diisi."
+            ],
+            "formulaDescription": "Skor perolehan antara 0 hingga 2."
+          }
+        },
+        {
+          "number": 14,
+          "type": "ESAI",
+          "stem": "Jelaskan secara runtut bagaimana cara menyelesaikan permasalahan terkait \"Memahami nilai tempat bilangan cacah hingga 10.000 dan membandingkan dua bilangan cacah.\", dan berikan alasan logis mengapa langkah-langkah tersebut harus dilakukan!",
+          "stimulus": "Dalam kehidupan sehari-hari, peserta didik sering menemukan fenomena nyata yang berkaitan dengan Bilangan Cacah Besar dan Nilai Tempat. Dibutuhkan pemahaman konsep dan penalaran ilmiah untuk memecahkan masalah tersebut.",
+          "correctKey": "Uraian terstruktur memuat: 1) Identifikasi masalah, 2) Tahapan penyelesaian konsep, 3) Alasan/argumentasi logis, 4) Simpulan.",
+          "explanation": "Jawaban esai dinilai menggunakan rubrik analitik yang mengukur kedalaman analisis, keruntutan berpikir, dan argumentasi ilmiah peserta didik.",
+          "element": "Bilangan",
+          "cp": "Peserta didik dapat memahami bilangan cacah besar sampai 10.000, operasi hitung penjumlahan dan pengurangan dengan nilai tempat yang sesuai.",
+          "tp": "Memahami nilai tempat bilangan cacah hingga 10.000 dan membandingkan dua bilangan cacah.",
+          "atp": "4.1 Membaca, menulis, dan menentukan nilai tempat bilangan cacah sampai 10.000.",
+          "indicator": "Disajikan permasalahan nyata, peserta didik dapat menguraikan langkah pemecahan masalah serta memberikan argumentasi logis secara komprehensif.",
+          "material": "Bilangan Cacah Besar dan Nilai Tempat",
+          "cognitiveLevel": "HOTS",
+          "thinkingSkill": "C5 - Mengevaluasi & C6 - Mengkreasi Solusi",
+          "weight": 4,
+          "scoringRubric": {
+            "idealAnswer": "Menyajikan identifikasi masalah dengan jelas, memaparkan minimal 3 tahapan pemecahan logis, dan menyimpulkan hasil dengan penalaran yang valid.",
+            "analyticRubric": [
+              {
+                "criterion": "Penguasaan Konsep dan Kejelasan Masalah",
+                "maxScore": 2,
+                "descriptions": [
+                  {
+                    "level": "Sangat Baik (Skor 2)",
+                    "score": 2,
+                    "description": "Konsep dipaparkan secara sangat jelas, akurat, dan menyeluruh."
+                  },
+                  {
+                    "level": "Cukup (Skor 1)",
+                    "score": 1,
+                    "description": "Konsep dipaparkan sebagian benar namun terdapat kekurangan minor."
+                  },
+                  {
+                    "level": "Perlu Bimbingan (Skor 0)",
+                    "score": 0,
+                    "description": "Konsep salah atau tidak relevan dengan permasalahan."
+                  }
+                ]
+              },
+              {
+                "criterion": "Sistematika Penalaran dan Solusi",
+                "maxScore": 2,
+                "descriptions": [
+                  {
+                    "level": "Sangat Baik (Skor 2)",
+                    "score": 2,
+                    "description": "Langkah pemecahan masalah runtut, disertai argumentasi logis dan dapat diterapkan."
+                  },
+                  {
+                    "level": "Cukup (Skor 1)",
+                    "score": 1,
+                    "description": "Langkah pemecahan kurang terstruktur namun kesimpulan mengarah ke solusi."
+                  },
+                  {
+                    "level": "Perlu Bimbingan (Skor 0)",
+                    "score": 0,
+                    "description": "Tidak menunjukkan alur penalaran yang masuk akal."
+                  }
+                ]
+              }
+            ],
+            "formulaDescription": "Total Skor Maksimal = 4. Nilai Butir = Skor Perolehan."
+          }
+        },
+        {
+          "number": 15,
+          "type": "ESAI",
+          "stem": "Jelaskan secara runtut bagaimana cara menyelesaikan permasalahan terkait \"Menyelesaikan perkalian dan pembagian bilangan cacah sampai 100 dalam kehidupan sehari-hari.\", dan berikan alasan logis mengapa langkah-langkah tersebut harus dilakukan!",
+          "stimulus": "Dalam kehidupan sehari-hari, peserta didik sering menemukan fenomena nyata yang berkaitan dengan Operasi Perkalian dan Pembagian Kontekstual. Dibutuhkan pemahaman konsep dan penalaran ilmiah untuk memecahkan masalah tersebut.",
+          "correctKey": "Uraian terstruktur memuat: 1) Identifikasi masalah, 2) Tahapan penyelesaian konsep, 3) Alasan/argumentasi logis, 4) Simpulan.",
+          "explanation": "Jawaban esai dinilai menggunakan rubrik analitik yang mengukur kedalaman analisis, keruntutan berpikir, dan argumentasi ilmiah peserta didik.",
+          "element": "Bilangan",
+          "cp": "Peserta didik dapat melakukan operasi perkalian dan pembagian bilangan cacah dengan strategi dekomposisi atau susun ke bawah.",
+          "tp": "Menyelesaikan perkalian dan pembagian bilangan cacah sampai 100 dalam kehidupan sehari-hari.",
+          "atp": "4.2 Menghitung hasil kali dan bagi bilangan cacah serta memecahkan masalah kontekstual.",
+          "indicator": "Disajikan permasalahan nyata, peserta didik dapat menguraikan langkah pemecahan masalah serta memberikan argumentasi logis secara komprehensif.",
+          "material": "Operasi Perkalian dan Pembagian Kontekstual",
+          "cognitiveLevel": "HOTS",
+          "thinkingSkill": "C5 - Mengevaluasi & C6 - Mengkreasi Solusi",
+          "weight": 4,
+          "scoringRubric": {
+            "idealAnswer": "Menyajikan identifikasi masalah dengan jelas, memaparkan minimal 3 tahapan pemecahan logis, dan menyimpulkan hasil dengan penalaran yang valid.",
+            "analyticRubric": [
+              {
+                "criterion": "Penguasaan Konsep dan Kejelasan Masalah",
+                "maxScore": 2,
+                "descriptions": [
+                  {
+                    "level": "Sangat Baik (Skor 2)",
+                    "score": 2,
+                    "description": "Konsep dipaparkan secara sangat jelas, akurat, dan menyeluruh."
+                  },
+                  {
+                    "level": "Cukup (Skor 1)",
+                    "score": 1,
+                    "description": "Konsep dipaparkan sebagian benar namun terdapat kekurangan minor."
+                  },
+                  {
+                    "level": "Perlu Bimbingan (Skor 0)",
+                    "score": 0,
+                    "description": "Konsep salah atau tidak relevan dengan permasalahan."
+                  }
+                ]
+              },
+              {
+                "criterion": "Sistematika Penalaran dan Solusi",
+                "maxScore": 2,
+                "descriptions": [
+                  {
+                    "level": "Sangat Baik (Skor 2)",
+                    "score": 2,
+                    "description": "Langkah pemecahan masalah runtut, disertai argumentasi logis dan dapat diterapkan."
+                  },
+                  {
+                    "level": "Cukup (Skor 1)",
+                    "score": 1,
+                    "description": "Langkah pemecahan kurang terstruktur namun kesimpulan mengarah ke solusi."
+                  },
+                  {
+                    "level": "Perlu Bimbingan (Skor 0)",
+                    "score": 0,
+                    "description": "Tidak menunjukkan alur penalaran yang masuk akal."
+                  }
+                ]
+              }
+            ],
+            "formulaDescription": "Total Skor Maksimal = 4. Nilai Butir = Skor Perolehan."
+          }
+        }
+      ],
+      "totalScore": 24,
+      "status": "ready_to_export",
+      "createdAt": "2026-10-28T13:48:00.503Z",
+      "updatedAt": "2026-10-28T13:48:00.503Z"
+    },
+    {
+      "id": "pkg-1793195312987",
+      "userId": "usr-1793195189105",
+      "title": "Naskah ASAS_1 Matematika Kelas 1",
+      "config": {
+        "assessmentType": "ASAS_1",
+        "grade": 1,
+        "phase": "Fase A",
+        "semester": 1,
+        "subject": "Matematika",
+        "academicYear": "2026/2027",
+        "authorName": "Ahmad Syafi’i, S.Pd.SD",
+        "examDate": "2026-10-28",
+        "timeAllocationMinutes": 90,
+        "numMultipleChoice": 10,
+        "numShortAnswer": 3,
+        "numEssay": 2,
+        "lotsPercentage": 30,
+        "motsPercentage": 50,
+        "hotsPercentage": 20,
+        "multipleChoiceOptionsCount": 4,
+        "scoringFormula": "Nilai Akhir = (Total Skor Perolehan / Total Skor Maksimal) x 100",
+        "weightPG": 1,
+        "weightIsian": 2,
+        "weightEssay": 4
+      },
+      "schoolSnapshot": {
+        "id": "sch-1793195233543",
+        "userId": "usr-1793195189105",
+        "schoolName": "SD Negeri Nusantara 01",
+        "npsn": "20214567",
+        "address": "Jl. Pendidikan No. 45",
+        "village": "Cipagalo",
+        "district": "Bojongsoang",
+        "cityRegency": "Kabupaten Bandung",
+        "province": "Jawa Barat",
+        "principalName": "Dra. Hj. Nurjanah, M.M.Pd.",
+        "authorTeacherName": "Ahmad Syafi’i, S.Pd.SD",
+        "authorTeacherNipNik": "198805122014021003",
+        "academicYear": "2026/2027",
+        "isLocked": true,
+        "lockedAt": "2026-10-28T13:47:13.543Z",
+        "createdAt": "2026-10-28T13:47:13.543Z",
+        "updatedAt": "2026-10-28T13:47:13.543Z",
+        "unlockHistory": []
+      },
+      "selectedTpIds": [
+        "std-mat-1",
+        "std-mat-2",
+        "std-mat-3",
+        "std-mat-4"
+      ],
+      "items": [
+        {
+          "number": 1,
+          "type": "PG",
+          "stem": "Berdasarkan pembelajaran tentang \"Memahami nilai tempat bilangan cacah hingga 10.000 dan membandingkan dua bilangan cacah.\", manakah pernyataan berikut yang paling tepat?",
+          "stimulus": "Perhatikan pernyataan berikut dengan saksama mengenai materi Bilangan Cacah Besar dan Nilai Tempat.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Konsep utama terkait Bilangan Cacah Besar dan Nilai Tempat diterapkan secara tepat sesuai aturan dasar."
+            },
+            {
+              "key": "B",
+              "text": "Semua unsur diabaikan dan tidak memperhatikan karakteristik materi pokok."
+            },
+            {
+              "key": "C",
+              "text": "Hanya bagian awal yang diperhatikan tanpa memperhatikan alur penyelesaian."
+            },
+            {
+              "key": "D",
+              "text": "Pernyataan tidak memiliki keterkaitan dengan tujuan pembelajaran."
+            }
+          ],
+          "correctKey": "A",
+          "explanation": "Opsi A merupakan jawaban yang benar karena menyatakan pemahaman konsep dasar sesuai Capaian Pembelajaran pada materi Bilangan Cacah Besar dan Nilai Tempat.",
+          "element": "Bilangan",
+          "cp": "Peserta didik dapat memahami bilangan cacah besar sampai 10.000, operasi hitung penjumlahan dan pengurangan dengan nilai tempat yang sesuai.",
+          "tp": "Memahami nilai tempat bilangan cacah hingga 10.000 dan membandingkan dua bilangan cacah.",
+          "atp": "4.1 Membaca, menulis, dan menentukan nilai tempat bilangan cacah sampai 10.000.",
+          "indicator": "Peserta didik dapat mengidentifikasi konsep dasar mengenai Bilangan Cacah Besar dan Nilai Tempat dengan tepat.",
+          "material": "Bilangan Cacah Besar dan Nilai Tempat",
+          "cognitiveLevel": "LOTS",
+          "thinkingSkill": "C2 - Memahami",
+          "weight": 1,
+          "scoringRubric": {
+            "idealAnswer": "A",
+            "formulaDescription": "Skor 1 jika memilih A, skor 0 jika memilih opsi lain."
+          }
+        },
+        {
+          "number": 2,
+          "type": "PG",
+          "stem": "Berdasarkan pembelajaran tentang \"Menyelesaikan perkalian dan pembagian bilangan cacah sampai 100 dalam kehidupan sehari-hari.\", manakah pernyataan berikut yang paling tepat?",
+          "stimulus": "Perhatikan pernyataan berikut dengan saksama mengenai materi Operasi Perkalian dan Pembagian Kontekstual.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Konsep utama terkait Operasi Perkalian dan Pembagian Kontekstual diterapkan secara tepat sesuai aturan dasar."
+            },
+            {
+              "key": "B",
+              "text": "Semua unsur diabaikan dan tidak memperhatikan karakteristik materi pokok."
+            },
+            {
+              "key": "C",
+              "text": "Hanya bagian awal yang diperhatikan tanpa memperhatikan alur penyelesaian."
+            },
+            {
+              "key": "D",
+              "text": "Pernyataan tidak memiliki keterkaitan dengan tujuan pembelajaran."
+            }
+          ],
+          "correctKey": "A",
+          "explanation": "Opsi A merupakan jawaban yang benar karena menyatakan pemahaman konsep dasar sesuai Capaian Pembelajaran pada materi Operasi Perkalian dan Pembagian Kontekstual.",
+          "element": "Bilangan",
+          "cp": "Peserta didik dapat melakukan operasi perkalian dan pembagian bilangan cacah dengan strategi dekomposisi atau susun ke bawah.",
+          "tp": "Menyelesaikan perkalian dan pembagian bilangan cacah sampai 100 dalam kehidupan sehari-hari.",
+          "atp": "4.2 Menghitung hasil kali dan bagi bilangan cacah serta memecahkan masalah kontekstual.",
+          "indicator": "Peserta didik dapat mengidentifikasi konsep dasar mengenai Operasi Perkalian dan Pembagian Kontekstual dengan tepat.",
+          "material": "Operasi Perkalian dan Pembagian Kontekstual",
+          "cognitiveLevel": "LOTS",
+          "thinkingSkill": "C2 - Memahami",
+          "weight": 1,
+          "scoringRubric": {
+            "idealAnswer": "A",
+            "formulaDescription": "Skor 1 jika memilih A, skor 0 jika memilih opsi lain."
+          }
+        },
+        {
+          "number": 3,
+          "type": "PG",
+          "stem": "Berdasarkan pembelajaran tentang \"Mengidentifikasi ciri-ciri bangun datar berdasarkan sisi dan sudutnya.\", manakah pernyataan berikut yang paling tepat?",
+          "stimulus": "Perhatikan pernyataan berikut dengan saksama mengenai materi Sifat dan Keliling Bangun Datar.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Konsep utama terkait Sifat dan Keliling Bangun Datar diterapkan secara tepat sesuai aturan dasar."
+            },
+            {
+              "key": "B",
+              "text": "Semua unsur diabaikan dan tidak memperhatikan karakteristik materi pokok."
+            },
+            {
+              "key": "C",
+              "text": "Hanya bagian awal yang diperhatikan tanpa memperhatikan alur penyelesaian."
+            },
+            {
+              "key": "D",
+              "text": "Pernyataan tidak memiliki keterkaitan dengan tujuan pembelajaran."
+            }
+          ],
+          "correctKey": "A",
+          "explanation": "Opsi A merupakan jawaban yang benar karena menyatakan pemahaman konsep dasar sesuai Capaian Pembelajaran pada materi Sifat dan Keliling Bangun Datar.",
+          "element": "Geometri",
+          "cp": "Peserta didik dapat mendeskripsikan ciri-ciri berbagai bentuk bangun datar (segi empat, segitiga, segi banyak) dan menyusunnya.",
+          "tp": "Mengidentifikasi ciri-ciri bangun datar berdasarkan sisi dan sudutnya.",
+          "atp": "4.3 Mengklasifikasikan jenis-jenis bangun datar dan menghitung keliling bangun datar.",
+          "indicator": "Peserta didik dapat mengidentifikasi konsep dasar mengenai Sifat dan Keliling Bangun Datar dengan tepat.",
+          "material": "Sifat dan Keliling Bangun Datar",
+          "cognitiveLevel": "LOTS",
+          "thinkingSkill": "C2 - Memahami",
+          "weight": 1,
+          "scoringRubric": {
+            "idealAnswer": "A",
+            "formulaDescription": "Skor 1 jika memilih A, skor 0 jika memilih opsi lain."
+          }
+        },
+        {
+          "number": 4,
+          "type": "PG",
+          "stem": "Berdasarkan pembelajaran tentang \"Menggunakan satuan baku panjang (m, cm, mm) dan berat (kg, g) dalam penyelesaian masalah konkret.\", manakah pernyataan berikut yang paling tepat?",
+          "stimulus": "Perhatikan pernyataan berikut dengan saksama mengenai materi Pengukuran Satuan Baku Panjang dan Berat.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Konsep utama terkait Pengukuran Satuan Baku Panjang dan Berat diterapkan secara tepat sesuai aturan dasar."
+            },
+            {
+              "key": "B",
+              "text": "Semua unsur diabaikan dan tidak memperhatikan karakteristik materi pokok."
+            },
+            {
+              "key": "C",
+              "text": "Hanya bagian awal yang diperhatikan tanpa memperhatikan alur penyelesaian."
+            },
+            {
+              "key": "D",
+              "text": "Pernyataan tidak memiliki keterkaitan dengan tujuan pembelajaran."
+            }
+          ],
+          "correctKey": "A",
+          "explanation": "Opsi A merupakan jawaban yang benar karena menyatakan pemahaman konsep dasar sesuai Capaian Pembelajaran pada materi Pengukuran Satuan Baku Panjang dan Berat.",
+          "element": "Pengukuran",
+          "cp": "Peserta didik dapat mengukur panjang dan berat benda menggunakan satuan baku dan memperkirakan ukuran benda.",
+          "tp": "Menggunakan satuan baku panjang (m, cm, mm) dan berat (kg, g) dalam penyelesaian masalah konkret.",
+          "atp": "4.4 Memperkirakan dan mengukur panjang dan berat benda menggunakan alat ukur baku.",
+          "indicator": "Peserta didik dapat mengidentifikasi konsep dasar mengenai Pengukuran Satuan Baku Panjang dan Berat dengan tepat.",
+          "material": "Pengukuran Satuan Baku Panjang dan Berat",
+          "cognitiveLevel": "LOTS",
+          "thinkingSkill": "C2 - Memahami",
+          "weight": 1,
+          "scoringRubric": {
+            "idealAnswer": "A",
+            "formulaDescription": "Skor 1 jika memilih A, skor 0 jika memilih opsi lain."
+          }
+        },
+        {
+          "number": 5,
+          "type": "PG",
+          "stem": "Berdasarkan pembelajaran tentang \"Memahami nilai tempat bilangan cacah hingga 10.000 dan membandingkan dua bilangan cacah.\", manakah pernyataan berikut yang paling tepat?",
+          "stimulus": "Perhatikan pernyataan berikut dengan saksama mengenai materi Bilangan Cacah Besar dan Nilai Tempat.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Konsep utama terkait Bilangan Cacah Besar dan Nilai Tempat diterapkan secara tepat sesuai aturan dasar."
+            },
+            {
+              "key": "B",
+              "text": "Semua unsur diabaikan dan tidak memperhatikan karakteristik materi pokok."
+            },
+            {
+              "key": "C",
+              "text": "Hanya bagian awal yang diperhatikan tanpa memperhatikan alur penyelesaian."
+            },
+            {
+              "key": "D",
+              "text": "Pernyataan tidak memiliki keterkaitan dengan tujuan pembelajaran."
+            }
+          ],
+          "correctKey": "A",
+          "explanation": "Opsi A merupakan jawaban yang benar karena menyatakan pemahaman konsep dasar sesuai Capaian Pembelajaran pada materi Bilangan Cacah Besar dan Nilai Tempat.",
+          "element": "Bilangan",
+          "cp": "Peserta didik dapat memahami bilangan cacah besar sampai 10.000, operasi hitung penjumlahan dan pengurangan dengan nilai tempat yang sesuai.",
+          "tp": "Memahami nilai tempat bilangan cacah hingga 10.000 dan membandingkan dua bilangan cacah.",
+          "atp": "4.1 Membaca, menulis, dan menentukan nilai tempat bilangan cacah sampai 10.000.",
+          "indicator": "Peserta didik dapat mengidentifikasi konsep dasar mengenai Bilangan Cacah Besar dan Nilai Tempat dengan tepat.",
+          "material": "Bilangan Cacah Besar dan Nilai Tempat",
+          "cognitiveLevel": "LOTS",
+          "thinkingSkill": "C2 - Memahami",
+          "weight": 1,
+          "scoringRubric": {
+            "idealAnswer": "A",
+            "formulaDescription": "Skor 1 jika memilih A, skor 0 jika memilih opsi lain."
+          }
+        },
+        {
+          "number": 6,
+          "type": "PG",
+          "stem": "Pak Budi bersama peserta didik kelas 1 sedang melakukan kegiatan di sekolah. Jika mereka menerapkan konsep \"Menyelesaikan perkalian dan pembagian bilangan cacah sampai 100 dalam kehidupan sehari-hari.\", langkah yang harus dilakukan adalah ....",
+          "stimulus": "Di sebuah kelas, guru membimbing siswa menghubungkan materi Operasi Perkalian dan Pembagian Kontekstual dengan pemecahan masalah sehari-hari secara langsung.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Menerapkan rumus atau prosedur penyelesaian langkah demi langkah hingga mendapatkan solusi tepat."
+            },
+            {
+              "key": "B",
+              "text": "Memilih jalan pintas tanpa melakukan perhitungan atau pengamatan yang benar."
+            },
+            {
+              "key": "C",
+              "text": "Menghentikan proses ketika menemui kesulitan di tahap awal."
+            },
+            {
+              "key": "D",
+              "text": "Menyalin hasil pekerjaan kelompok lain tanpa memahami maknanya."
+            }
+          ],
+          "correctKey": "A",
+          "explanation": "Opsi A mencerminkan kemampuan C3 (Menerapkan) di mana murid mengaplikasikan prosedur yang tepat dalam menyelesaikan situasi kontekstual.",
+          "element": "Bilangan",
+          "cp": "Peserta didik dapat melakukan operasi perkalian dan pembagian bilangan cacah dengan strategi dekomposisi atau susun ke bawah.",
+          "tp": "Menyelesaikan perkalian dan pembagian bilangan cacah sampai 100 dalam kehidupan sehari-hari.",
+          "atp": "4.2 Menghitung hasil kali dan bagi bilangan cacah serta memecahkan masalah kontekstual.",
+          "indicator": "Disajikan narasi kontekstual, peserta didik dapat menerapkan prosedur terkait Operasi Perkalian dan Pembagian Kontekstual secara akurat.",
+          "material": "Operasi Perkalian dan Pembagian Kontekstual",
+          "cognitiveLevel": "MOTS",
+          "thinkingSkill": "C3 - Menerapkan",
+          "weight": 1,
+          "scoringRubric": {
+            "idealAnswer": "A",
+            "formulaDescription": "Skor 1 jika memilih A, skor 0 jika memilih opsi lain."
+          }
+        },
+        {
+          "number": 7,
+          "type": "PG",
+          "stem": "Pak Budi bersama peserta didik kelas 1 sedang melakukan kegiatan di sekolah. Jika mereka menerapkan konsep \"Mengidentifikasi ciri-ciri bangun datar berdasarkan sisi dan sudutnya.\", langkah yang harus dilakukan adalah ....",
+          "stimulus": "Di sebuah kelas, guru membimbing siswa menghubungkan materi Sifat dan Keliling Bangun Datar dengan pemecahan masalah sehari-hari secara langsung.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Menerapkan rumus atau prosedur penyelesaian langkah demi langkah hingga mendapatkan solusi tepat."
+            },
+            {
+              "key": "B",
+              "text": "Memilih jalan pintas tanpa melakukan perhitungan atau pengamatan yang benar."
+            },
+            {
+              "key": "C",
+              "text": "Menghentikan proses ketika menemui kesulitan di tahap awal."
+            },
+            {
+              "key": "D",
+              "text": "Menyalin hasil pekerjaan kelompok lain tanpa memahami maknanya."
+            }
+          ],
+          "correctKey": "A",
+          "explanation": "Opsi A mencerminkan kemampuan C3 (Menerapkan) di mana murid mengaplikasikan prosedur yang tepat dalam menyelesaikan situasi kontekstual.",
+          "element": "Geometri",
+          "cp": "Peserta didik dapat mendeskripsikan ciri-ciri berbagai bentuk bangun datar (segi empat, segitiga, segi banyak) dan menyusunnya.",
+          "tp": "Mengidentifikasi ciri-ciri bangun datar berdasarkan sisi dan sudutnya.",
+          "atp": "4.3 Mengklasifikasikan jenis-jenis bangun datar dan menghitung keliling bangun datar.",
+          "indicator": "Disajikan narasi kontekstual, peserta didik dapat menerapkan prosedur terkait Sifat dan Keliling Bangun Datar secara akurat.",
+          "material": "Sifat dan Keliling Bangun Datar",
+          "cognitiveLevel": "MOTS",
+          "thinkingSkill": "C3 - Menerapkan",
+          "weight": 1,
+          "scoringRubric": {
+            "idealAnswer": "A",
+            "formulaDescription": "Skor 1 jika memilih A, skor 0 jika memilih opsi lain."
+          }
+        },
+        {
+          "number": 8,
+          "type": "PG",
+          "stem": "Pak Budi bersama peserta didik kelas 1 sedang melakukan kegiatan di sekolah. Jika mereka menerapkan konsep \"Menggunakan satuan baku panjang (m, cm, mm) dan berat (kg, g) dalam penyelesaian masalah konkret.\", langkah yang harus dilakukan adalah ....",
+          "stimulus": "Di sebuah kelas, guru membimbing siswa menghubungkan materi Pengukuran Satuan Baku Panjang dan Berat dengan pemecahan masalah sehari-hari secara langsung.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Menerapkan rumus atau prosedur penyelesaian langkah demi langkah hingga mendapatkan solusi tepat."
+            },
+            {
+              "key": "B",
+              "text": "Memilih jalan pintas tanpa melakukan perhitungan atau pengamatan yang benar."
+            },
+            {
+              "key": "C",
+              "text": "Menghentikan proses ketika menemui kesulitan di tahap awal."
+            },
+            {
+              "key": "D",
+              "text": "Menyalin hasil pekerjaan kelompok lain tanpa memahami maknanya."
+            }
+          ],
+          "correctKey": "A",
+          "explanation": "Opsi A mencerminkan kemampuan C3 (Menerapkan) di mana murid mengaplikasikan prosedur yang tepat dalam menyelesaikan situasi kontekstual.",
+          "element": "Pengukuran",
+          "cp": "Peserta didik dapat mengukur panjang dan berat benda menggunakan satuan baku dan memperkirakan ukuran benda.",
+          "tp": "Menggunakan satuan baku panjang (m, cm, mm) dan berat (kg, g) dalam penyelesaian masalah konkret.",
+          "atp": "4.4 Memperkirakan dan mengukur panjang dan berat benda menggunakan alat ukur baku.",
+          "indicator": "Disajikan narasi kontekstual, peserta didik dapat menerapkan prosedur terkait Pengukuran Satuan Baku Panjang dan Berat secara akurat.",
+          "material": "Pengukuran Satuan Baku Panjang dan Berat",
+          "cognitiveLevel": "MOTS",
+          "thinkingSkill": "C3 - Menerapkan",
+          "weight": 1,
+          "scoringRubric": {
+            "idealAnswer": "A",
+            "formulaDescription": "Skor 1 jika memilih A, skor 0 jika memilih opsi lain."
+          }
+        },
+        {
+          "number": 9,
+          "type": "PG",
+          "stem": "Pak Budi bersama peserta didik kelas 1 sedang melakukan kegiatan di sekolah. Jika mereka menerapkan konsep \"Memahami nilai tempat bilangan cacah hingga 10.000 dan membandingkan dua bilangan cacah.\", langkah yang harus dilakukan adalah ....",
+          "stimulus": "Di sebuah kelas, guru membimbing siswa menghubungkan materi Bilangan Cacah Besar dan Nilai Tempat dengan pemecahan masalah sehari-hari secara langsung.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Menerapkan rumus atau prosedur penyelesaian langkah demi langkah hingga mendapatkan solusi tepat."
+            },
+            {
+              "key": "B",
+              "text": "Memilih jalan pintas tanpa melakukan perhitungan atau pengamatan yang benar."
+            },
+            {
+              "key": "C",
+              "text": "Menghentikan proses ketika menemui kesulitan di tahap awal."
+            },
+            {
+              "key": "D",
+              "text": "Menyalin hasil pekerjaan kelompok lain tanpa memahami maknanya."
+            }
+          ],
+          "correctKey": "A",
+          "explanation": "Opsi A mencerminkan kemampuan C3 (Menerapkan) di mana murid mengaplikasikan prosedur yang tepat dalam menyelesaikan situasi kontekstual.",
+          "element": "Bilangan",
+          "cp": "Peserta didik dapat memahami bilangan cacah besar sampai 10.000, operasi hitung penjumlahan dan pengurangan dengan nilai tempat yang sesuai.",
+          "tp": "Memahami nilai tempat bilangan cacah hingga 10.000 dan membandingkan dua bilangan cacah.",
+          "atp": "4.1 Membaca, menulis, dan menentukan nilai tempat bilangan cacah sampai 10.000.",
+          "indicator": "Disajikan narasi kontekstual, peserta didik dapat menerapkan prosedur terkait Bilangan Cacah Besar dan Nilai Tempat secara akurat.",
+          "material": "Bilangan Cacah Besar dan Nilai Tempat",
+          "cognitiveLevel": "MOTS",
+          "thinkingSkill": "C3 - Menerapkan",
+          "weight": 1,
+          "scoringRubric": {
+            "idealAnswer": "A",
+            "formulaDescription": "Skor 1 jika memilih A, skor 0 jika memilih opsi lain."
+          }
+        },
+        {
+          "number": 10,
+          "type": "PG",
+          "stem": "Pak Budi bersama peserta didik kelas 1 sedang melakukan kegiatan di sekolah. Jika mereka menerapkan konsep \"Menyelesaikan perkalian dan pembagian bilangan cacah sampai 100 dalam kehidupan sehari-hari.\", langkah yang harus dilakukan adalah ....",
+          "stimulus": "Di sebuah kelas, guru membimbing siswa menghubungkan materi Operasi Perkalian dan Pembagian Kontekstual dengan pemecahan masalah sehari-hari secara langsung.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Menerapkan rumus atau prosedur penyelesaian langkah demi langkah hingga mendapatkan solusi tepat."
+            },
+            {
+              "key": "B",
+              "text": "Memilih jalan pintas tanpa melakukan perhitungan atau pengamatan yang benar."
+            },
+            {
+              "key": "C",
+              "text": "Menghentikan proses ketika menemui kesulitan di tahap awal."
+            },
+            {
+              "key": "D",
+              "text": "Menyalin hasil pekerjaan kelompok lain tanpa memahami maknanya."
+            }
+          ],
+          "correctKey": "A",
+          "explanation": "Opsi A mencerminkan kemampuan C3 (Menerapkan) di mana murid mengaplikasikan prosedur yang tepat dalam menyelesaikan situasi kontekstual.",
+          "element": "Bilangan",
+          "cp": "Peserta didik dapat melakukan operasi perkalian dan pembagian bilangan cacah dengan strategi dekomposisi atau susun ke bawah.",
+          "tp": "Menyelesaikan perkalian dan pembagian bilangan cacah sampai 100 dalam kehidupan sehari-hari.",
+          "atp": "4.2 Menghitung hasil kali dan bagi bilangan cacah serta memecahkan masalah kontekstual.",
+          "indicator": "Disajikan narasi kontekstual, peserta didik dapat menerapkan prosedur terkait Operasi Perkalian dan Pembagian Kontekstual secara akurat.",
+          "material": "Operasi Perkalian dan Pembagian Kontekstual",
+          "cognitiveLevel": "MOTS",
+          "thinkingSkill": "C3 - Menerapkan",
+          "weight": 1,
+          "scoringRubric": {
+            "idealAnswer": "A",
+            "formulaDescription": "Skor 1 jika memilih A, skor 0 jika memilih opsi lain."
+          }
+        },
+        {
+          "number": 11,
+          "type": "ISIAN",
+          "stem": "Tuliskan istilah atau hasil akhir yang tepat saat menerapkan materi \"Memahami nilai tempat bilangan cacah hingga 10.000 dan membandingkan dua bilangan cacah.\" pada kegiatan belajar!",
+          "stimulus": "Lengkapilah kalimat berikut dengan jawaban singkat dan tepat berdasarkan pemahaman materi Bilangan Cacah Besar dan Nilai Tempat.",
+          "correctKey": "4.500 atau satuan baku yang sesuai",
+          "explanation": "Jawaban harus menyebutkan kata kunci esensial atau besaran angka yang tepat sesuai konteks pembelajaran.",
+          "element": "Bilangan",
+          "cp": "Peserta didik dapat memahami bilangan cacah besar sampai 10.000, operasi hitung penjumlahan dan pengurangan dengan nilai tempat yang sesuai.",
+          "tp": "Memahami nilai tempat bilangan cacah hingga 10.000 dan membandingkan dua bilangan cacah.",
+          "atp": "4.1 Membaca, menulis, dan menentukan nilai tempat bilangan cacah sampai 10.000.",
+          "indicator": "Peserta didik dapat menentukan jawaban isian singkat secara tepat mengenai Bilangan Cacah Besar dan Nilai Tempat.",
+          "material": "Bilangan Cacah Besar dan Nilai Tempat",
+          "cognitiveLevel": "MOTS",
+          "thinkingSkill": "C3 - Menerapkan",
+          "weight": 2,
+          "scoringRubric": {
+            "idealAnswer": "Hasil perhitungan tepat disertai satuan.",
+            "partialCriteria": [
+              "Skor 2: Menuliskan jawaban ideal secara tepat dan lengkap.",
+              "Skor 1: Menuliskan jawaban yang mendekati atau istilah sinonim tanpa satuan baku.",
+              "Skor 0: Jawaban keliru atau tidak diisi."
+            ],
+            "formulaDescription": "Skor perolehan antara 0 hingga 2."
+          }
+        },
+        {
+          "number": 12,
+          "type": "ISIAN",
+          "stem": "Tuliskan istilah atau hasil akhir yang tepat saat menerapkan materi \"Menyelesaikan perkalian dan pembagian bilangan cacah sampai 100 dalam kehidupan sehari-hari.\" pada kegiatan belajar!",
+          "stimulus": "Lengkapilah kalimat berikut dengan jawaban singkat dan tepat berdasarkan pemahaman materi Operasi Perkalian dan Pembagian Kontekstual.",
+          "correctKey": "4.500 atau satuan baku yang sesuai",
+          "explanation": "Jawaban harus menyebutkan kata kunci esensial atau besaran angka yang tepat sesuai konteks pembelajaran.",
+          "element": "Bilangan",
+          "cp": "Peserta didik dapat melakukan operasi perkalian dan pembagian bilangan cacah dengan strategi dekomposisi atau susun ke bawah.",
+          "tp": "Menyelesaikan perkalian dan pembagian bilangan cacah sampai 100 dalam kehidupan sehari-hari.",
+          "atp": "4.2 Menghitung hasil kali dan bagi bilangan cacah serta memecahkan masalah kontekstual.",
+          "indicator": "Peserta didik dapat menentukan jawaban isian singkat secara tepat mengenai Operasi Perkalian dan Pembagian Kontekstual.",
+          "material": "Operasi Perkalian dan Pembagian Kontekstual",
+          "cognitiveLevel": "MOTS",
+          "thinkingSkill": "C3 - Menerapkan",
+          "weight": 2,
+          "scoringRubric": {
+            "idealAnswer": "Hasil perhitungan tepat disertai satuan.",
+            "partialCriteria": [
+              "Skor 2: Menuliskan jawaban ideal secara tepat dan lengkap.",
+              "Skor 1: Menuliskan jawaban yang mendekati atau istilah sinonim tanpa satuan baku.",
+              "Skor 0: Jawaban keliru atau tidak diisi."
+            ],
+            "formulaDescription": "Skor perolehan antara 0 hingga 2."
+          }
+        },
+        {
+          "number": 13,
+          "type": "ISIAN",
+          "stem": "Tuliskan istilah atau hasil akhir yang tepat saat menerapkan materi \"Mengidentifikasi ciri-ciri bangun datar berdasarkan sisi dan sudutnya.\" pada kegiatan belajar!",
+          "stimulus": "Lengkapilah kalimat berikut dengan jawaban singkat dan tepat berdasarkan pemahaman materi Sifat dan Keliling Bangun Datar.",
+          "correctKey": "4.500 atau satuan baku yang sesuai",
+          "explanation": "Jawaban harus menyebutkan kata kunci esensial atau besaran angka yang tepat sesuai konteks pembelajaran.",
+          "element": "Geometri",
+          "cp": "Peserta didik dapat mendeskripsikan ciri-ciri berbagai bentuk bangun datar (segi empat, segitiga, segi banyak) dan menyusunnya.",
+          "tp": "Mengidentifikasi ciri-ciri bangun datar berdasarkan sisi dan sudutnya.",
+          "atp": "4.3 Mengklasifikasikan jenis-jenis bangun datar dan menghitung keliling bangun datar.",
+          "indicator": "Peserta didik dapat menentukan jawaban isian singkat secara tepat mengenai Sifat dan Keliling Bangun Datar.",
+          "material": "Sifat dan Keliling Bangun Datar",
+          "cognitiveLevel": "HOTS",
+          "thinkingSkill": "C3 - Menerapkan",
+          "weight": 2,
+          "scoringRubric": {
+            "idealAnswer": "Hasil perhitungan tepat disertai satuan.",
+            "partialCriteria": [
+              "Skor 2: Menuliskan jawaban ideal secara tepat dan lengkap.",
+              "Skor 1: Menuliskan jawaban yang mendekati atau istilah sinonim tanpa satuan baku.",
+              "Skor 0: Jawaban keliru atau tidak diisi."
+            ],
+            "formulaDescription": "Skor perolehan antara 0 hingga 2."
+          }
+        },
+        {
+          "number": 14,
+          "type": "ESAI",
+          "stem": "Jelaskan secara runtut bagaimana cara menyelesaikan permasalahan terkait \"Memahami nilai tempat bilangan cacah hingga 10.000 dan membandingkan dua bilangan cacah.\", dan berikan alasan logis mengapa langkah-langkah tersebut harus dilakukan!",
+          "stimulus": "Dalam kehidupan sehari-hari, peserta didik sering menemukan fenomena nyata yang berkaitan dengan Bilangan Cacah Besar dan Nilai Tempat. Dibutuhkan pemahaman konsep dan penalaran ilmiah untuk memecahkan masalah tersebut.",
+          "correctKey": "Uraian terstruktur memuat: 1) Identifikasi masalah, 2) Tahapan penyelesaian konsep, 3) Alasan/argumentasi logis, 4) Simpulan.",
+          "explanation": "Jawaban esai dinilai menggunakan rubrik analitik yang mengukur kedalaman analisis, keruntutan berpikir, dan argumentasi ilmiah peserta didik.",
+          "element": "Bilangan",
+          "cp": "Peserta didik dapat memahami bilangan cacah besar sampai 10.000, operasi hitung penjumlahan dan pengurangan dengan nilai tempat yang sesuai.",
+          "tp": "Memahami nilai tempat bilangan cacah hingga 10.000 dan membandingkan dua bilangan cacah.",
+          "atp": "4.1 Membaca, menulis, dan menentukan nilai tempat bilangan cacah sampai 10.000.",
+          "indicator": "Disajikan permasalahan nyata, peserta didik dapat menguraikan langkah pemecahan masalah serta memberikan argumentasi logis secara komprehensif.",
+          "material": "Bilangan Cacah Besar dan Nilai Tempat",
+          "cognitiveLevel": "HOTS",
+          "thinkingSkill": "C5 - Mengevaluasi & C6 - Mengkreasi Solusi",
+          "weight": 4,
+          "scoringRubric": {
+            "idealAnswer": "Menyajikan identifikasi masalah dengan jelas, memaparkan minimal 3 tahapan pemecahan logis, dan menyimpulkan hasil dengan penalaran yang valid.",
+            "analyticRubric": [
+              {
+                "criterion": "Penguasaan Konsep dan Kejelasan Masalah",
+                "maxScore": 2,
+                "descriptions": [
+                  {
+                    "level": "Sangat Baik (Skor 2)",
+                    "score": 2,
+                    "description": "Konsep dipaparkan secara sangat jelas, akurat, dan menyeluruh."
+                  },
+                  {
+                    "level": "Cukup (Skor 1)",
+                    "score": 1,
+                    "description": "Konsep dipaparkan sebagian benar namun terdapat kekurangan minor."
+                  },
+                  {
+                    "level": "Perlu Bimbingan (Skor 0)",
+                    "score": 0,
+                    "description": "Konsep salah atau tidak relevan dengan permasalahan."
+                  }
+                ]
+              },
+              {
+                "criterion": "Sistematika Penalaran dan Solusi",
+                "maxScore": 2,
+                "descriptions": [
+                  {
+                    "level": "Sangat Baik (Skor 2)",
+                    "score": 2,
+                    "description": "Langkah pemecahan masalah runtut, disertai argumentasi logis dan dapat diterapkan."
+                  },
+                  {
+                    "level": "Cukup (Skor 1)",
+                    "score": 1,
+                    "description": "Langkah pemecahan kurang terstruktur namun kesimpulan mengarah ke solusi."
+                  },
+                  {
+                    "level": "Perlu Bimbingan (Skor 0)",
+                    "score": 0,
+                    "description": "Tidak menunjukkan alur penalaran yang masuk akal."
+                  }
+                ]
+              }
+            ],
+            "formulaDescription": "Total Skor Maksimal = 4. Nilai Butir = Skor Perolehan."
+          }
+        },
+        {
+          "number": 15,
+          "type": "ESAI",
+          "stem": "Jelaskan secara runtut bagaimana cara menyelesaikan permasalahan terkait \"Menyelesaikan perkalian dan pembagian bilangan cacah sampai 100 dalam kehidupan sehari-hari.\", dan berikan alasan logis mengapa langkah-langkah tersebut harus dilakukan!",
+          "stimulus": "Dalam kehidupan sehari-hari, peserta didik sering menemukan fenomena nyata yang berkaitan dengan Operasi Perkalian dan Pembagian Kontekstual. Dibutuhkan pemahaman konsep dan penalaran ilmiah untuk memecahkan masalah tersebut.",
+          "correctKey": "Uraian terstruktur memuat: 1) Identifikasi masalah, 2) Tahapan penyelesaian konsep, 3) Alasan/argumentasi logis, 4) Simpulan.",
+          "explanation": "Jawaban esai dinilai menggunakan rubrik analitik yang mengukur kedalaman analisis, keruntutan berpikir, dan argumentasi ilmiah peserta didik.",
+          "element": "Bilangan",
+          "cp": "Peserta didik dapat melakukan operasi perkalian dan pembagian bilangan cacah dengan strategi dekomposisi atau susun ke bawah.",
+          "tp": "Menyelesaikan perkalian dan pembagian bilangan cacah sampai 100 dalam kehidupan sehari-hari.",
+          "atp": "4.2 Menghitung hasil kali dan bagi bilangan cacah serta memecahkan masalah kontekstual.",
+          "indicator": "Disajikan permasalahan nyata, peserta didik dapat menguraikan langkah pemecahan masalah serta memberikan argumentasi logis secara komprehensif.",
+          "material": "Operasi Perkalian dan Pembagian Kontekstual",
+          "cognitiveLevel": "HOTS",
+          "thinkingSkill": "C5 - Mengevaluasi & C6 - Mengkreasi Solusi",
+          "weight": 4,
+          "scoringRubric": {
+            "idealAnswer": "Menyajikan identifikasi masalah dengan jelas, memaparkan minimal 3 tahapan pemecahan logis, dan menyimpulkan hasil dengan penalaran yang valid.",
+            "analyticRubric": [
+              {
+                "criterion": "Penguasaan Konsep dan Kejelasan Masalah",
+                "maxScore": 2,
+                "descriptions": [
+                  {
+                    "level": "Sangat Baik (Skor 2)",
+                    "score": 2,
+                    "description": "Konsep dipaparkan secara sangat jelas, akurat, dan menyeluruh."
+                  },
+                  {
+                    "level": "Cukup (Skor 1)",
+                    "score": 1,
+                    "description": "Konsep dipaparkan sebagian benar namun terdapat kekurangan minor."
+                  },
+                  {
+                    "level": "Perlu Bimbingan (Skor 0)",
+                    "score": 0,
+                    "description": "Konsep salah atau tidak relevan dengan permasalahan."
+                  }
+                ]
+              },
+              {
+                "criterion": "Sistematika Penalaran dan Solusi",
+                "maxScore": 2,
+                "descriptions": [
+                  {
+                    "level": "Sangat Baik (Skor 2)",
+                    "score": 2,
+                    "description": "Langkah pemecahan masalah runtut, disertai argumentasi logis dan dapat diterapkan."
+                  },
+                  {
+                    "level": "Cukup (Skor 1)",
+                    "score": 1,
+                    "description": "Langkah pemecahan kurang terstruktur namun kesimpulan mengarah ke solusi."
+                  },
+                  {
+                    "level": "Perlu Bimbingan (Skor 0)",
+                    "score": 0,
+                    "description": "Tidak menunjukkan alur penalaran yang masuk akal."
+                  }
+                ]
+              }
+            ],
+            "formulaDescription": "Total Skor Maksimal = 4. Nilai Butir = Skor Perolehan."
+          }
+        }
+      ],
+      "totalScore": 24,
+      "status": "ready_to_export",
+      "createdAt": "2026-10-28T13:48:32.987Z",
+      "updatedAt": "2026-10-28T13:48:36.773Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log-1793196221734-zaa3d",
+      "userId": "admin-system-root",
+      "username": "admin",
+      "action": "AUTH_LOGIN",
+      "details": "Pengguna berhasil masuk ke sistem",
+      "timestamp": "2026-10-28T14:03:41.734Z"
+    },
+    {
+      "id": "log-1793196193091-9chcn",
+      "userId": "admin-system-root",
+      "username": "admin",
+      "action": "AUTH_LOGIN",
+      "details": "Pengguna berhasil masuk ke sistem",
+      "timestamp": "2026-10-28T14:03:13.091Z"
+    },
+    {
+      "id": "log-1793196173264-bkqab",
+      "userId": "admin-system-root",
+      "username": "admin",
+      "action": "AUTH_LOGIN",
+      "details": "Pengguna berhasil masuk ke sistem",
+      "timestamp": "2026-10-28T14:02:53.264Z"
+    },
+    {
+      "id": "log-1793196141030-08ezy",
+      "userId": "admin-system-root",
+      "username": "admin",
+      "action": "AUTH_LOGIN",
+      "details": "Pengguna berhasil masuk ke sistem",
+      "timestamp": "2026-10-28T14:02:21.030Z"
+    },
+    {
+      "id": "log-1793196062255-s27gw",
+      "userId": "admin-system-root",
+      "username": "admin",
+      "action": "AUTH_LOGIN",
+      "details": "Pengguna berhasil masuk ke sistem",
+      "timestamp": "2026-10-28T14:01:02.255Z"
+    },
+    {
+      "id": "log-1793196013681-owpd3",
+      "userId": "admin-system-root",
+      "username": "admin",
+      "action": "AUTH_LOGIN",
+      "details": "Pengguna berhasil masuk ke sistem",
+      "timestamp": "2026-10-28T14:00:13.681Z"
+    },
+    {
+      "id": "log-1793195953918-5yel5",
+      "userId": "admin-system-root",
+      "username": "admin",
+      "action": "SYSTEM_BOOTSTRAP",
+      "details": "Inisialisasi akun Administrator bawaan sistem (admin/admin).",
+      "timestamp": "2026-10-28T13:59:13.918Z"
+    },
+    {
+      "id": "log-1793195419887-rcm4r",
+      "userId": "usr-1793195189105",
+      "username": "198805122014021003",
+      "action": "AUTH_LOGIN",
+      "details": "Pengguna berhasil masuk ke sistem",
+      "timestamp": "2026-10-28T13:50:19.887Z"
+    },
+    {
+      "id": "log-1793195341714-05jt0",
+      "userId": "usr-1793195189105",
+      "username": "198805122014021003",
+      "action": "AUTH_LOGIN",
+      "details": "Pengguna berhasil masuk ke sistem",
+      "timestamp": "2026-10-28T13:49:01.714Z"
+    },
+    {
+      "id": "log-1793195316774-1zmjt",
+      "userId": "usr-1793195189105",
+      "username": "198805122014021003",
+      "action": "ASSESSMENT_UPDATED",
+      "details": "Menyunting naskah soal: Naskah ASAS_1 Matematika Kelas 1",
+      "timestamp": "2026-10-28T13:48:36.774Z"
+    },
+    {
+      "id": "log-1793195312988-j3kpv",
+      "userId": "usr-1793195189105",
+      "username": "198805122014021003",
+      "action": "ASSESSMENT_GENERATED",
+      "details": "Membuat naskah asesmen: Naskah ASAS_1 Matematika Kelas 1 (15 butir soal, total skor 24)",
+      "timestamp": "2026-10-28T13:48:32.988Z"
+    },
+    {
+      "id": "log-1793195304389-6cw7a",
+      "userId": "usr-1793195189105",
+      "username": "198805122014021003",
+      "action": "AUTH_LOGIN",
+      "details": "Pengguna berhasil masuk ke sistem",
+      "timestamp": "2026-10-28T13:48:24.389Z"
+    },
+    {
+      "id": "log-1793195280504-q4pib",
+      "userId": "usr-1793195189105",
+      "username": "198805122014021003",
+      "action": "ASSESSMENT_GENERATED",
+      "details": "Membuat naskah asesmen: Naskah ASAS_1 Matematika Kelas 1 (15 butir soal, total skor 24)",
+      "timestamp": "2026-10-28T13:48:00.504Z"
+    },
+    {
+      "id": "log-1793195271810-0pry6",
+      "userId": "usr-1793195189105",
+      "username": "198805122014021003",
+      "action": "AUTH_LOGIN",
+      "details": "Pengguna berhasil masuk ke sistem",
+      "timestamp": "2026-10-28T13:47:51.810Z"
+    },
+    {
+      "id": "log-1793195256535-z3mv4",
+      "userId": "usr-1793195189105",
+      "username": "198805122014021003",
+      "action": "AUTH_LOGIN",
+      "details": "Pengguna berhasil masuk ke sistem",
+      "timestamp": "2026-10-28T13:47:36.535Z"
+    },
+    {
+      "id": "log-1793195233543-jtwdo",
+      "userId": "usr-1793195189105",
+      "username": "198805122014021003",
+      "action": "SCHOOL_IDENTITY_LOCKED",
+      "details": "Identitas sekolah SD Negeri Nusantara 01 diperbarui (Terkunci)",
+      "timestamp": "2026-10-28T13:47:13.543Z"
+    },
+    {
+      "id": "log-1793195224988-d85z6",
+      "userId": "usr-1793195189105",
+      "username": "198805122014021003",
+      "action": "AUTH_LOGIN",
+      "details": "Pengguna berhasil masuk ke sistem",
+      "timestamp": "2026-10-28T13:47:04.988Z"
+    },
+    {
+      "id": "log-1793195189235-32b5c",
+      "userId": "usr-1793195189105",
+      "username": "198805122014021003",
+      "action": "AUTH_SIGNUP",
+      "details": "Pendaftaran guru baru: Ahmad Syafi’i, S.Pd.SD (SD Negeri Nusantara 01)",
+      "timestamp": "2026-10-28T13:46:29.235Z"
+    },
+    {
+      "id": "log-1793195160911-rpuwg",
+      "userId": "admin-system-root",
+      "username": "198001012005011001",
+      "action": "SYSTEM_BOOTSTRAP",
+      "details": "Inisialisasi akun Administrator bawaan sistem.",
+      "timestamp": "2026-10-28T13:46:00.911Z"
+    }
+  ],
+  "userAiSettings": [],
+  "regulations": [
+    {
+      "id": "reg-1",
+      "name": "Panduan Pembelajaran dan Asesmen (PPA) Edisi Revisi",
+      "code": "PPA Revisi 2025",
+      "year": 2025,
+      "publisher": "BSKAP Kemendikdasmen RI",
+      "url": "https://kurikulum.kemdikbud.go.id/rujukan/panduan-pembelajaran-dan-asesmen",
+      "verificationStatus": "verified",
+      "lastCheckedDate": "2026-01-15",
+      "summary": "Memuat prinsip pembelajaran berkesadaran, asesmen diagnostik, formatif, serta sumatif (ASAS, ASAT, ASAJ) dengan penguatan proses berpikir tingkat tinggi dan rubrik analitik."
+    },
+    {
+      "id": "reg-2",
+      "name": "Peraturan Menteri Pendidikan, Kebudayaan, Riset, dan Teknologi tentang Kurikulum pada Pendidikan Anak Usia Dini, Pendidikan Dasar, dan Menengah",
+      "code": "Permendikbudristek No. 12 Tahun 2024",
+      "year": 2024,
+      "publisher": "Kemendikbudristek RI",
+      "url": "https://jdih.kemdikbud.go.id/detail_peraturan?main=3311",
+      "verificationStatus": "verified",
+      "lastCheckedDate": "2026-02-10",
+      "summary": "Landasan hukum implementasi Kurikulum Merdeka secara nasional dengan penetapan struktur kurikulum, fase A, B, C untuk jenjang Sekolah Dasar."
+    },
+    {
+      "id": "reg-3",
+      "name": "Standar Penilaian Pendidikan pada Pendidikan Anak Usia Dini, Jenjang Pendidikan Dasar, dan Jenjang Pendidikan Menengah",
+      "code": "Permendikbudristek No. 21 Tahun 2022",
+      "year": 2022,
+      "publisher": "Kemendikbudristek RI",
+      "url": "https://jdih.kemdikbud.go.id/detail_peraturan?main=3160",
+      "verificationStatus": "verified",
+      "lastCheckedDate": "2026-01-20",
+      "summary": "Ketentuan standar penilaian hasil belajar murid: penilaian sumatif bertujuan menilai pencapaian hasil belajar peserta didik sebagai dasar penentuan kenaikan kelas dan kelulusan."
+    },
+    {
+      "id": "reg-4",
+      "name": "Keputusan Kepala BSKAP tentang Capaian Pembelajaran pada Pendidikan Anak Usia Dini, Jenjang Pendidikan Dasar, dan Jenjang Pendidikan Menengah",
+      "code": "Keputusan Kepala BSKAP No. 032/H/KR/2024",
+      "year": 2024,
+      "publisher": "Badan Standar, Kurikulum, dan Asesmen Pendidikan",
+      "url": "https://kurikulum.kemdikbud.go.id/unduhan",
+      "verificationStatus": "verified",
+      "lastCheckedDate": "2026-03-01",
+      "summary": "Rincian deskripsi Capaian Pembelajaran (CP) untuk semua mata pelajaran Fase A (Kelas 1-2), Fase B (Kelas 3-4), dan Fase C (Kelas 5-6)."
+    }
+  ]
+}
